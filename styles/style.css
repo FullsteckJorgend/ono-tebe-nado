@@ -10,9 +10,6 @@
   align-items: center;
 }
 
-.header__menu {
-}
-
 .header__links-list {
   display: flex;
   align-items: center;
@@ -134,7 +131,7 @@
   display: flex;
   grid-template-columns: fr1;
   position: relative;
-  z-index: 5;
+  z-index: 2;
 }
 
 .cover__description-text {
@@ -157,6 +154,7 @@
   width: 256px;
   height: 51px;
   text-decoration: none;
+  text-transform: uppercase;
   border: 2px solid rgb(255, 255, 255);
   margin: 135px 50px 51px 0px;
 
