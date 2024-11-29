@@ -5,7 +5,7 @@
 .header {
   display: grid;
   grid-template-columns: 465px min-content 396px;
-  margin: 92px 50px;
+  margin: 92px 24px 96px 24px;
   width: 1052px;
   height: 105px;
   grid-row: span 2;
@@ -88,7 +88,7 @@
   height: 757px;
   display: grid;
   grid-template-columns: 1fr;
-  margin: 95px 0px 0px 30px;
+  margin: 92px 0px 0px 30px;
   position: relative;
 }
 
@@ -180,7 +180,7 @@
 .lots {
   width: 1052px;
   height: 692px;
-  margin: 179px 24px 0px 56px;
+  margin: 179px 24px 0px 24px;
 }
 
 .lots__heading {
@@ -324,7 +324,7 @@
   width: 1052px;
   height: 595px;
   /*margin: 150px 45px 0px 55px;*/
-  margin: 150px 38px 0px 62px;
+  margin: 146px 24px 0px 24px;
 }
 
 .about__logo {
@@ -374,7 +374,7 @@
   height: 98px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 178px 0px 0px 81px;
+  margin: 180px 50px 88px 50px;
 }
 
 .address-footer {
