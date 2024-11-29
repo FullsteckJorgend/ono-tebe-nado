@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="fonts/fonts.css" />
-    <link rel="stylesheet" href="styles/global.css" />
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
   <body>
@@ -16,18 +16,18 @@
         <ul class="header__links-list">
           <li class="header__links-list-item_no-bullet">
             <!-- це бис точи -->
-            <a href="">главная</a>
+            <a href="#Main">главная</a>
           </li>
           <li class="header__links-list-item circle">
-            <a href="">посмотреть лоты</a>
+            <a href="#The_auction">посмотреть лоты</a>
           </li>
           <li class="header__links-list-item circle">
-            <a href="">об аукционе</a>
+            <a href="#About_the_auction">об аукционе</a>
           </li>
         </ul>
       </nav>
       <section class="header__logo">
-        <img src="images/logo-black.svg" alt="Лого сайта" />
+        <a href="#0"><img src="./images/logo-black.svg" alt="Лого сайта" /></a>
         <!-- волидотор крычыт на це мисто. окурат -->
       </section>
       <address class="address">
@@ -48,7 +48,7 @@
     </header>
     <!-- /HEADER -->
     <!-- COVER -->
-    <section class="cover">
+    <section id="Main" class="cover">
       <div class="overplay"></div>
       <!-- ни тогати, ни знаю як це гивно работэ -->
       <h1 class="cover__title">
@@ -72,5 +72,145 @@
         <button class="bet-button">Сделать ставку</button>
       </div>
     </section>
+    <!-- /COVER -->
+    <!--LOTS-->
+    <section class="lots">
+      <h2 id="The_auction" class="lots__heading">лоты</h2>
+      <ul class="lots__card-list">
+        <li class="lots__card-list-item">
+          <a class="card-link" href="#0">
+            <article class="card card_type_film">
+              <h3 class="card__title">
+                Фильм режиссёра, который бросил киношколу
+              </h3>
+              <p class="card__text">
+                Не просто бросил, а ушёл<br />
+                с первой лекции. Какой<br />
+                была бы ваша ставка,<br />
+                если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+              </p>
+            </article>
+          </a>
+        </li>
+        <li class="lots__card-list-item">
+          <a class="card-link" href="#0">
+            <article class="card_type_book">
+              <h3 class="card__title">
+                Книга, где описан один скучный день из жизни рекламного агента
+              </h3>
+              <p class="card__text">
+                Объёмом почти в тысячу<br />
+                страниц. Иногда без<br />
+                знаков препинания и с<br />
+                переходами на<br />
+                древнеанглийский. В ней<br />
+                одновременно<br />
+                рассказывается о 16 июня<br />
+                1904 года и об истории<br />
+                литературы, начиная с<br />
+                античных времён. И это<br />
+                всё накладывается на<br />
+                эпическую поэму Гомера.<br />
+                Сколько бы вы поставили<br />
+                на «Улисса» Джеймса<br />
+                Джойса?
+              </p>
+            </article>
+          </a>
+        </li>
+        <li class="lots__card-list-item">
+          <a class="card-link" href="#0">
+            <article class="card_type_picture">
+              <h3 class="card__title">
+                Картина, которую повторит даже 5-летний сын маминой подруги
+              </h3>
+              <p class="card__text">
+                Ну действительно, там<br />
+                линия, тут кружочек, а<br />
+                здесь и вовсе что-то<br />
+                похожее на инфузорию-<br />туфельку. Никаких полей,<br />
+                лесов, котиков. . . Сколько<br />
+                бы вы на такое поставили,<br />
+                если бы не знали, что это<br />
+                — одна из<br />
+                революционных работ<br />
+                Кандинского?
+              </p>
+            </article>
+          </a>
+        </li>
+      </ul>
+      <p class="lots__look-more-link"><a href="#0">посмотреть больше</a></p>
+    </section>
+    <!--/LOTS-->
+    <!--ABOUT-->
+    <section class="about">
+      <div class="about__logo">
+        <img class="about__logo-img" src="./images/logo-white.svg" alt="logo-white" />
+      </div>
+      <h2 id="About_the_auction" class="about__title">Об аукционе</h2>
+      <p class="about__text">
+        Здесь вы не встретите очередное пафосное собрание невероятно дорогого
+        антиквариата. Наши лоты вообще не должны были попасть ни на один
+        аукцион. Потому что кому нужен дневник девочки-подростка или картина,
+        которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи,
+        созданные любителями?
+      </p>
+      <p class="about__text">
+        Слишком сложные или, наоборот, слишком простые. Опережающие своё время.
+        В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то
+        они казались просто неудачными. Но, несмотря на критику, кажущуюся
+        простоту или сложность, сейчас без этих лотов невозможно представить
+        современную культуру. Когда в эти вещи не верил никто, продолжали верить
+        их создатели. И сейчас эти лоты стали культовыми.
+      </p>
+    </section>
+    <!--/ABOUT-->
+    <!--FOOTER-->
+    <footer class="footer">
+      <address class="address-footer">
+        <p>
+          <a class="address__footer-item" href="tel:+99995555555"
+            >+9 999 555 5555</a
+          ><br /><!--здесь класс header-addres подходит, вмешиватся не буду-->
+        </p>
+        <p>
+          <a class="address__footer-item" href="mailto:info@sobaka.ge"
+            >info@sobaka.ge</a
+          ><!--здесь класс header-addres подходит, вмешиватся не буду-->
+        </p>
+        <p class="addres">
+          наб. Принсенграхт 263-<br />
+          265, Амстердам
+        </p>
+      </address>
+      <nav class="footer__menu">
+        <ul class="footer__links-list">
+          <li class="footer__links-list-item_no-bullet">
+            <!-- це бис точи -->
+            <a href="#Main">главная</a>
+          </li>
+          <li class="footer__links-list-item_no-bullet underline">
+            <a href="#The_auction">посмотреть лоты</a>
+          </li>
+          <li class="footer__links-list-item_no-bullet underline">
+            <a href="#About_the_auction">об аукционе</a>
+          </li>
+        </ul>
+      </nav>
+      <section class="footer__social-list">
+        <a class="footer__social-link" href="#0"
+          ><img class="footer__social-icon" src="./images/yt.svg" alt="Ютуб"
+        /></a>
+        <a class="footer__social-link" href="#0"
+          ><img class="footer__social-icon" src="./images/vk.svg" alt="VK"
+        /></a>
+        <a class="footer__social-link" href="#0"
+          ><img class="footer__social-icon" src="./images/pinterest.svg" alt="Pinterest"
+        /></a>
+      </section>
+    </footer>
+    <!--/FOOTER-->
+    <!--Здравствуйте! Хотел бы поблагодарить вас за этот проект. Я почувствовал, каково это — быть верстальщиком, и понял, что всё это время учился не зря. Осознал, что нужно повторить, а что у меня прекрасно получается. Не судите слишком строго (хотя я понимаю, что это ваша работа). Жду не дождусь нового проекта. Ещё раз спасибо!-->
   </body>
 </html>
