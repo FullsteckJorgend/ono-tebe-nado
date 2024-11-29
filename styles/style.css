@@ -421,6 +421,8 @@
   width: 240px;
   height: 48px;
   margin-left: 99px;
+  
+  justify-content: space-between;
 }
 
 .footer__social-icon {
