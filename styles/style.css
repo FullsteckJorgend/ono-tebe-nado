@@ -204,7 +204,7 @@
 .card_type_film {
   position: relative;
   z-index: 0;
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
   width: 334px;
   height: 563px;
   background-size: cover;
@@ -254,7 +254,7 @@
 }
 
 .card_type_book {
-  background-image: url(/images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
   position: relative;
   z-index: 0;
   width: 334px;
@@ -279,7 +279,7 @@
 }
 
 .card_type_picture {
-  background-image: url(/images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
   position: relative;
   z-index: 0;
   width: 334px;
