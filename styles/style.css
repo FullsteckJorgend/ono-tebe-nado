@@ -4,7 +4,7 @@
 
 .header {
   display: grid;
-  grid-template-columns: 465px min-content 396px;
+  grid-template-columns: 1fr min-content 1fr; 
   margin: 92px 24px 96px 24px;
   width: 1052px;
   height: 105px;
@@ -45,14 +45,17 @@
   width: 135px;
 }
 
-.address {
+.header__address {
   display: grid;
+  align-self: center;
   justify-items: start;
   justify-content: end;
+  padding-right: 63px;
+  
 }
 
-.header__address {
-  text-align: right;
+.address {
+  text-align: left;
   font-style: normal;
   font-family: Raleway;
   font-size: 18px;
@@ -62,6 +65,11 @@
   text-underline-offset: 4px;
 }
 
+.address-not_underline{
+  text-decoration: none;
+}
+
+/*
 .addres {
   align-items: start;
   justify-content: end;
@@ -72,7 +80,7 @@
   font-weight: 400;
   line-height: 24px;
 }
-
+*/
 /*/header*/
 
 /* ни тогати, ни знаю як це гивно работэ */
@@ -88,7 +96,7 @@
   height: 757px;
   display: grid;
   grid-template-columns: 1fr;
-  margin: 92px 0px 0px 30px;
+  margin: 92px 0px 0px 0px;
   position: relative;
 }
 
@@ -96,7 +104,7 @@
   position: absolute;
   min-width: 100%;
   min-height: 100%;
-  background-color: rgba(0, 0, 0, 0.58);
+  background-color: rgba(0, 0, 0, 0.6);
   z-index: 1;
 }
 
@@ -110,6 +118,7 @@
   letter-spacing: 0.3em;
   padding: 165px 0px 0px 52px;
   margin: 0px 50px 0px 0px;
+  text-transform: uppercase;
 }
 
 .aligned-text {
@@ -251,6 +260,8 @@
   font-weight: 400;
   line-height: 24px;
   padding: 0px 0px 48px 40px;
+  word-wrap: break-word;
+  width: 295px;
 }
 
 .card_type_book {
@@ -354,10 +365,13 @@
   line-height: 46.96px;
 }
 
-.about__text {
-  margin: 8px 0px 0px 2px;
-  padding-bottom: 17px;
+.text_escription {
+  padding: 0px 0px 0px 8px;
   grid-column: 2;
+}
+
+.about__text {
+  padding-bottom: 24px;
   font-family: Raleway;
   font-size: 20px;
   font-weight: 400;
@@ -382,17 +396,6 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
-}
-
-.address__footer-item {
-  text-align: right;
-  font-style: normal;
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24px;
-  text-decoration: underline;
-  text-underline-offset: 4px;
 }
 
 .footer__links-list {
