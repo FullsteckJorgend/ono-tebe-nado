@@ -14,9 +14,9 @@
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
-          <li class="header__links-list-item_no-bullet link-active">
+          <li class="header__links-list-item_no-bullet">
             <!-- це бис точи -->
-            <a href="#Main">главная</a>
+            <a class="link-active" href="#cover_nav">главная</a>
           </li>
           <li class="header__links-list-item circle">
             <a href="#The_auction">посмотреть лоты</a>
@@ -32,12 +32,12 @@
       /></a>
       <!-- волидотор крычыт на це мисто. окурат -->
 
-      <address class="header__address">
-        <a class="address" href="tel:+99995555555">+9 999 555 5555</a>
+      <address class="address">
+        <a class="address_item" href="tel:+99995555555">+9 999 555 5555</a>
 
-        <a class="address" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <a class="address_item" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
 
-        <p class="address address-not_underline">
+        <p class="address_item address-not_underline">
           наб. Принсенграхт 263-<br />
           265, Амстердам
         </p>
@@ -45,7 +45,7 @@
     </header>
     <!-- /HEADER -->
     <!-- COVER -->
-    <main id="Main" class="cover">
+    <section id="cover_nav" class="cover">
       <div class="overplay"></div>
       <!-- ни тогати, ни знаю як це гивно работэ -->
       <h1 class="cover__title">
@@ -68,7 +68,7 @@
         </p>
         <button class="bet-button">Сделать ставку</button>
       </div>
-    </main>
+    </section>
     <!-- /COVER -->
     <!--LOTS-->
     <section class="lots">
@@ -156,12 +156,12 @@
     <!--/ABOUT-->
     <!--FOOTER-->
     <footer class="footer">
-      <address>
-        <a class="address" href="tel:+99995555555">+9 999 555 5555</a><br />
+      <address class="address address-footer">
+        <a class="address_item" href="tel:+99995555555">+9 999 555 5555</a>
 
-        <a class="address" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <a class="address_item" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
 
-        <p class="address address-not_underline">
+        <p class="address_item address-not_underline">
           наб. Принсенграхт 263-<br />
           265, Амстердам
         </p>
@@ -180,23 +180,29 @@
           </li>
         </ul>
       </nav>
-      <section class="footer__social-list">
-        <a class="footer__social-link" href="#0"
-          ><img class="footer__social-icon" src="./images/yt.svg" alt="Ютуб"
-        /></a>
-        <a class="footer__social-link" href="#0"
-          ><img
-            class="footer__social-icon"
-            src="./images/vk.svg"
-            alt="Вконтакте"
-        /></a>
-        <a class="footer__social-link" href="#0"
-          ><img
-            class="footer__social-icon"
-            src="./images/pinterest.svg"
-            alt="Pinterest"
-        /></a>
-      </section>
+      <ul class="footer__social-list">
+        <li>
+          <a class="footer__social-link" href="#0"
+            ><img class="footer__social-icon" src="./images/yt.svg" alt="Ютуб"
+          /></a>
+        </li>
+        <li>
+          <a class="footer__social-link" href="#0"
+            ><img
+              class="footer__social-icon"
+              src="./images/vk.svg"
+              alt="Вконтакте"
+          /></a>
+        </li>
+        <li>
+          <a class="footer__social-link" href="#0"
+            ><img
+              class="footer__social-icon"
+              src="./images/pinterest.svg"
+              alt="Pinterest"
+          /></a>
+        </li>
+      </ul>
     </footer>
     <!--/FOOTER-->
     <!--Здравствуйте! Хотел бы поблагодарить вас за этот проект. Я почувствовал, каково это — быть верстальщиком, и понял, что всё это время учился не зря. Осознал, что нужно повторить, а что у меня прекрасно получается. Не судите слишком строго (хотя я понимаю, что это ваша работа). Жду не дождусь нового проекта. Ещё раз спасибо!-->
