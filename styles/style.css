@@ -15,13 +15,13 @@
 .header__links-list {
   display: flex;
   align-items: center;
-  gap: 32px;
-  justify-self: center;
+  gap: 33px;
+  margin-left: 26px;
 }
 
 .header__links-list-item {
   text-underline-offset: 4px;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -35,7 +35,7 @@
 .header__links-list-item_no-bullet {
   list-style-type: none;
   text-decoration: none; /*тут яка проблима?*/
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -60,7 +60,7 @@
 .address {
   text-align: left;
   font-style: normal;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -78,7 +78,7 @@
   justify-content: end;
   text-align: left;
   font-style: normal;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -97,9 +97,7 @@
   background-size: cover;
   width: 1100px;
   min-height: 757px;
-  display: grid;
-  grid-template-columns: 1fr;
-  margin: 92px 0px 0px 0px;
+  z-index: 2;
   position: relative;
 }
 
@@ -115,7 +113,7 @@
 .cover__title {
   z-index: 10;
   color: #ffffff;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 100px;
   font-weight: 700;
   line-height: 115px;
@@ -123,6 +121,7 @@
   padding: 165px 0px 0px 52px;
   margin: 0px 50px 0px 0px;
   text-transform: uppercase;
+  position: relative;
 }
 
 .aligned-text {
@@ -154,7 +153,7 @@
 }
 
 .cover__description-text {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 22px;
   font-weight: 400;
   line-height: 28px;
@@ -177,7 +176,7 @@
   border: 2px solid rgb(255, 255, 255);
   margin: 135px 50px 51px 0px;
 
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 22px;
   font-weight: 500;
   line-height: 25.83px;
@@ -198,7 +197,7 @@
 .lots__heading {
   padding-left: 40px;
   text-transform: uppercase;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 47px;
@@ -257,7 +256,7 @@
   position: relative;
   align-items: center;
   z-index: 2;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 22px;
   font-weight: 700;
   line-height: 26.4px;
@@ -273,7 +272,7 @@
   
   z-index: 1;
   color: #ffffff;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
@@ -283,7 +282,7 @@
 }
 
 .lots__look-more-link {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 23.48px;
@@ -299,10 +298,9 @@
 /*about*/
 
 .about {
-  display: grid; /* Убираем дублирующее flex */
+  display: grid; 
   grid-template-columns: 1fr 2fr;
   width: 1052px;
-  /*margin: 150px 45px 0px 55px;*/
   margin: 146px 24px 0px 24px;
 }
 
@@ -323,25 +321,25 @@
 }
 
 .about__title {
-  margin: 135px 0px 0px 8px;
+  margin: 135px 0px 0px 17px;
   color: black;
   text-transform: uppercase;
   grid-column: span 1;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 46.96px;
 }
 
 .text_escription {
-  padding: 100px 0px 0px 8px;
+  padding: 100px 0px 0px 17px;
   grid-column: 2;
   width: 710px;
 }
 
 .about__text {
   padding-bottom: 24px;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
@@ -356,11 +354,11 @@
   width: 1000px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 180px 50px 88px 50px;
+  margin: 156px 50px 88px 50px;
 }
 
 .address-footer {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -375,7 +373,7 @@
 .footer__links-list-item_no-bullet {
   list-style-type: none;
   text-decoration: none;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.13px;
