@@ -5,8 +5,8 @@
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
-  margin: 92px 24px 96px 24px;
-  width: 1052px;
+  margin: 92px 24px 92px 24px;
+  width: 1052px; /*------------------*/
   grid-row: span 2;
   align-items: center;
 }
@@ -49,10 +49,10 @@
 }
 
 .address {
-  display: grid; 
-  align-self: center; 
-  justify-items: start; 
-  justify-content: end; 
+  display: grid;
+  align-self: center;
+  justify-items: start;
+  justify-content: end;
   padding-right: 63px;
 }
 
@@ -363,7 +363,7 @@
 }
 
 .address-footer {
-justify-content: flex-start;
+  justify-content: flex-start;
 }
 
 .footer__links-list {
